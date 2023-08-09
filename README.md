@@ -1,0 +1,2 @@
+# calcika
+Calculator name shortform 
