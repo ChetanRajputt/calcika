@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 300px;
+    height: 487px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: 4px solid silver;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    border-radius: 23px;
+}
+
+
+.container .row {
+    margin-top: 20px;
+}
+
+.container .row button {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 22%, rgba(253, 187, 45, 1) 100%);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    width: 62px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px darkblue;
+    margin-right: 2px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+#masterPlay {
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 22%, rgba(253, 187, 45, 1) 100%);
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    width: 39px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px darkblue;
+    margin-right: 2px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+
+.container .row button:hover {
+    background-color: rgba(0, 255, 85, 0.801);
+    transform: scale(1.1);
+}
+
+.container .row #inputBox {
+    border: none;
+    outline: none;
+    padding: 5px 18px;
+    width: 247px;
+    border-radius: 7px;
+    text-align: right;
+    background-color: beige;
+    box-shadow: 0px 0px 5px darkviolet;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container .row .clear {
+    background-color: #3d4246;
+    width: 76px;
+}
+
+.container .row .equal {
+    width: 239px;
+    background: aqua;
+    border-radius: 11px;
+    font-size: 23px;
+}
+
+
+.container .row #inputBox {
+    border: none;
+    outline: none;
+    padding: 5px 18px;
+    width: 247px;
+    border-radius: 7px;
+    text-align: right;
+    background-color: beige;
+    box-shadow: 0px 0px 5px darkviolet;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#masterPlay {
+    width: 49px;
+    display: inline-block;
+    background: deepskyblue;
+    padding: 8px;
+    font-weight: bold;
+}
